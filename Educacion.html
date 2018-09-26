@@ -6,8 +6,91 @@
     <title>Educacion - Curriculum Digital</title>
   </head>
   <body>
-    <nav>
-    <p>  <a href="educacion.html">Educacion</a> 	|  <a href="experiencia.html">Experiencia</a> | <a href="index.html">Inicio</a> </p>
-    </nav>
+    <header>
+      <article>
+          <img src="IMAGES/logowq.svg" alt="Wilmer Quijano Baez Curriculum digital" title="Wilmer Quijano Baez Curriculum digital" width="300px">
+          <h1>Curriculum Digital</h1>
+          <h2>Datos Personales</h2>
+            <ul>
+              <li> <h3>Nombres: Wilmer Richard</h3></li>
+              <li> <h3>Apellidos: Quijano Baez</h3></li>
+              <li> <h3>Fecha de Nacimiento:04 de diciembre de 1977</h3>  </li>
+              <li> <h3>Lugar de Nacimiento: Cartagena Bolivar</h3>  </li>
+            </ul>
+      </article>
+      <nav>
+        <a href="experiencia.html">Experiencia</a> | <a href="index.html">Inicio</a>
+      </nav>
+    </header>
+    <article>
+      <h2>Educación</h2>
+        <table border="1">
+          <thead>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>Culmino?</th>
+          </thead>
+          <tr>
+            <td>1995</td>
+            <td>Inem "Jose Manuel Rodriguez Torices"</td>
+            <td>Cartagena de Indias</td>
+            <td>SI</td>
+          </tr>
+          <tr>
+            <td>1998</td>
+            <td>Comfenalco</td>
+            <td>Cartagena de Indias</td>
+            <td>NO</td>
+          </tr>
+          <tr>
+            <td>2001</td>
+            <td>System Plus</td>
+            <td>Bucaramanga</td>
+            <td>SI</td>
+          </tr>
+          <tr>
+            <td>2003</td>
+            <td>U. Sergio Arboleda</td>
+            <td>Cartagena</td>
+            <td>SI</td>
+          </tr>
+        </table>
+        <h2>Agregar Estudios</h2>
+        <form  action="index.html" method="post" autocomplete="on" name="Agregar_Estudios">
+          <fieldset>
+            <legend>Nuevo Estudio</legend>
+            <label>Año: </label>
+            <select form="Agregar_estudios" name="año_estudios">
+              <option value="2003">2003</option>
+              <option value="2004">2004</option>
+              <option value="2005">2005</option>
+              <option value="2006">2006</option>
+              <option value="2007">2007</option>
+              <option value="2008">2008</option>
+              <option value="2009">2009</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017" selected>2017</option>
+            </select></br>
+            <label>Institución: </label><input type="text" name="Institucion" placeholder="nombre de la inst."><br>
+            <label>Lugar: </label><input type="text" name="Lugar" placeholder="Digite La ciudad"><br>
+            <input type="submit" name="submit" >
+          </fieldset>
+        </form><br>
+    </article>
+    <footer>
+      <strong>Nombre:</strong>Wilmer Richard Quijano Baez</h4><br/>
+      <strong>Cel:</strong>316 700 7084 Cartagena - Colombia <br>
+      <strong>Email:</strong><a href="mailto:tuescuelaenlinea@hotmail.com?subject=feedback">tuescuelaenlinea@hotmail.com</a><br>
+      <a href="https://www.facebook.com/tuescuela.enlinea" target="_blank"> <img src="images/facebook.jpeg" width="30px" alt="Facebook @tutuescuelaenlinea" title="Facebook @tutuescuelaenlinea" /></a>
+      <a href="https://twitter.com/tuescuelaenline" target="_blank"> <img src="images/twiter.jpeg" width="30px" alt="twitter @tuescuelaenlinea" title="Twitter @tuescuelaenlinea"> </a>
+      <a href="https://www.instagram.com/tuescuelaenlinea/" target="_blank"> <img src="images/instagram.jpeg" width="30px" alt="Instagram @tuescuelaenlinea" title="Instagram @tuescuelaenlinea"> </a>
+     </footer>
   </body>
 </html>
